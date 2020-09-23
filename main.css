@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #dad3c1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  height: 100vh;
+  color: #918b7c;
+}
+
+.cursor {
+  border-left: 2px solid black;
+}
+
+.done {
+  color: black;
+}
+
+#stats {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  height: 50px;
+  width: 250px;
+}
+
+#stats .wpm {
+  font-size: 2em;
+  color: black;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  height: 250px;
+  width: 760px;
+}
+
+#typing {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#typing div {
+  width: 10px;
+  height: 21px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+button {
+  border: none;
+  background: inherit;
+  color: inherit;
+  font-family: inherit;
+  width: 100px;
+}
+
+button:hover {
+  color: black;
+}
